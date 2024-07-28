@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"  content="width=device-width, initial-scale=1">
+        <link rel="icon" href="calci.favicon.jpg">
+        <title>Calculator</title> 
+        <link rel="stylesheet" href="cal.css">
+    </head>
+    <body>
+        <div class="calci">
+
+            <h1>Calculator</h1>
+            <p class="display" id="ans">0</p>
+
+            <div class="row1">
+                <button id="seven" onclick="show(7)">7</button>
+                <button id="eight" onclick="show(8)">8</button>
+                <button id="nine" onclick="show(9)">9</button>
+                <button id="op" onclick="operator(4)">/</button>
+            </div>
+
+            <div class="row2">
+                <button onclick="show(4)">4</button>
+                <button onclick="show(5)">5</button>
+                <button onclick="show(6)">6</button>
+                <button id="op" onclick="operator(3)">x</button>
+            </div>
+            
+            <div class="row3">
+                <button onclick="show(1)">1</button>
+                <button onclick="show(2)">2</button>
+                <button onclick="show(3)">3</button>
+                <button id="op" onclick="operator(2)">-</button>
+            </div>
+
+            <div class="row4">
+                <button onclick="show(0)">0</button>
+                <button onclick="cle()">C</button>
+                <button onclick="del()">D</button>
+                <button onclick="operator(1)">+</button>
+            </div>
+
+            <div class="answers">
+                <button onclick="equal()">=</button>
+            </div>
+            
+            <div class="about">
+                <button>About</button>
+            </div>
+        </div>
+
+        
+        
+
+        <script src="calci.js"></script>
+        
+    </body>
+</html>
