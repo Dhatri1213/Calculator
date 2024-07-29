@@ -1,0 +1,41 @@
+.conditions{
+    width:700px;
+    height:250px;
+    margin:150px auto;
+    padding:14px 10px;
+    
+}
+
+.conditions >h2{
+    text-align:center;
+    color:rgb(78, 77, 77);
+}
+
+
+#inst{
+    color:red;
+    font-family:Cambria;
+    font-size: 15px;
+}
+
+.rules{
+    margin:0px 20px;
+    
+}
+
+a{
+text-decoration: none;
+font-size:18px;
+color:white;
+}
+
+.rules >button{
+   background-color:rgb(73, 220, 73); 
+   width:85px;
+   height:35px;
+   border:none;
+   border-radius:4px;
+   margin-left:545px;
+}
+
+
